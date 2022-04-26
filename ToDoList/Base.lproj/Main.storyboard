@@ -33,6 +33,9 @@
                     <navigationItem key="navigationItem" title="ToDoList" id="tgR-qy-8dP">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="5GN-Js-Zld">
                             <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="addButtonPressed:" destination="8WQ-VN-xf4" id="UEI-mp-dK8"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                 </tableViewController>
